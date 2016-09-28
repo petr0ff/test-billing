@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-Suite Unit tests">
+    <test name="Unit Test Account DAO">
+        <classes>
+            <class name="unit.dao.TestAccountDAO"/>
+        </classes>
+    </test>
+    <test name="Unit Test Account Balance DAO">
+        <classes>
+            <class name="unit.dao.TestAccountBalanceDAO"/>
+        </classes>
+    </test>
+</suite>
+

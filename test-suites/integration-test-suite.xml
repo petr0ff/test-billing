@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-Suite Integration tests">
+    <test name="Test Account Create">
+        <classes>
+            <class name="integration.TestCreateAccount"/>
+        </classes>
+    </test>
+    <test name="Test Account Get">
+        <classes>
+            <class name="integration.TestGetAccount"/>
+        </classes>
+    </test>
+    <test name="Test Balance Get">
+        <classes>
+            <class name="integration.TestGetBalance"/>
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,1 @@
+java -jar target/test-billing-1.0-SNAPSHOT.jar server billing.yml
